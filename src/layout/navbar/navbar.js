@@ -11,8 +11,8 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <div className="mb-[11vh]  md:mb-[15vh] xl:mb-[13vh] ">
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md ">
+    <div className=" ">
+      <div className=" bg-white shadow-md ">
         <TopContactBar />
         <header className="">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,18 +23,21 @@ export default function Navbar() {
               </Link>
 
               {/* Desktop Navigation */}
-              <nav className="hidden md:flex space-x-6 text-lg  font-normal text-black">
+              <nav className="hidden md:flex space-x-2 text-lg  font-normal text-black">
                 <Link href="/" className="hover:text-blue-600 transition">
                   Home <span className='text-gray-900'>|</span>
                 </Link>
                 {/* <Link href="/about-me" className="hover:text-blue-600 transition">
                   About Me
                 </Link> */}
-                
+              
 
 
                 <Link href="/projects" className="hover:text-blue-600 transition">
                   Projects <span className='text-gray-900'>|</span>
+                </Link>
+                <Link href="/journey" className="hover:text-blue-600 transition">
+                  Journey <span className='text-gray-900'>|</span>
                 </Link>
                 <Link href="/contact-me" className="hover:text-blue-600 transition">
                   Contact

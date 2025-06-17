@@ -55,9 +55,9 @@ export default function Footer() {
         </div>
 
         {/* Social & Newsletter */}
-        <div>
+        <div className='ml-6' >
           <h4 className="text-2xl font-bold text-white mb-4">Connect With Me</h4>
-          <div className="flex gap-4 mb-6">
+          <div className="flex gap-10 mb-6">
             <a
               href="https://www.linkedin.com/shareArticle?url=namangupta.co.in/"
               target="_blank"
@@ -84,7 +84,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <form className="flex flex-col gap-3">
+          {/* <form className="flex flex-col gap-3">
             <input
               type="email"
               placeholder="Enter your email"
@@ -96,7 +96,7 @@ export default function Footer() {
             >
               Subscribe
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
 

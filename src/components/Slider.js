@@ -9,13 +9,16 @@ import 'swiper/css/navigation';
 
 const images = [
   {
-    src: '/Images/Grad-2.webp',
+    src: '/Images/canva.png',
     alt: 'Media Photo 2',
+    caption:" Graduation Ceremony for B.Com (H) at NMIMS - Narsee Monjee Institute of Management - Mumbai India"
     
   },
   {
-    src: '/Images/NMIMS-Graduation.webp',
+    src: '/Images/Grad-2.webp',
     alt: 'Media Photo 1',
+        caption:"Graduation Ceremony for MSc - Investment & Finance at Durham University - Durham _ United Kingdom"
+
   },
   
 ];
@@ -33,7 +36,7 @@ export default function ImageSlider() {
       >
         {images.map((img, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-[200px] md:h-[800px]  overflow-hidden">
+            <div className="relative w-full h-[200px] md:h-[600px]  overflow-hidden">
               {/* Dark overlay */}
               {/* <div className="absolute inset-0 bg-black/30 z-10" /> */}
 
@@ -41,9 +44,12 @@ export default function ImageSlider() {
               <Image src={img.src} alt={img.alt} fill className="object-cover" />
 
               {/* Caption on image */}
-              {/* <div className="absolute bottom-0 left-0 right-0 z-20 p-4 text-center text-white text-sm md:text-xl font-semibold">
-                {img.caption}
-              </div> */}
+              <div className="absolute inset-0 flex justify-center items-center z-20">
+  <div className="bg-black/60 text-white text-center px-6 py-5  text-sm md:text-2xl font-semibold shadow-lg max-w-[90%]  translate-y-5 md:translate-y-40">
+    {img.caption}
+  </div>
+</div>
+
             </div>
           </SwiperSlide>
         ))}

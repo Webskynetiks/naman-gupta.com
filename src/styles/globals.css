@@ -168,12 +168,12 @@ html {
 }
 
 /* for swiper controller */
-.swiper {
+/* .swiper {
   width: 100%;
   height: auto;
   margin-top: 20px;
   margin-bottom: 30px;
-}
+} */
 
 .swiper-slide {
   height: auto !important;

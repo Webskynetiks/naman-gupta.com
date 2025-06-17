@@ -10,8 +10,7 @@ export default function HeroSection() {
         <div className="order-1 md:order-2 w-full">
           <div className="w-full">
             <img
-              src="/Images/profile-picture.JPG"
-              
+              src="/Images/profile-picture.JPG"             
               width={800}
               height={500}
               className="w-full h-[20rem] lg:h-[32rem] object-cover  shadow-lg rounded"
@@ -21,15 +20,16 @@ export default function HeroSection() {
 
         {/* Text Content */}
         <div className="order-2 md:order-1">
-          <h1 className="text-4xl md:text-2xl font-bold mb-4">Naman Gupta  </h1>
-          <h1 className="text-4xl md:text-xl  "> MSc Finance | Durham University United Kingdom </h1>
+          <h1 className="text-4xl md:text-2xl font-bold mb-4">About Me </h1>
+          <h1 className="text-4xl md:text-xl font-semibold ">Durham University & NMIMS Alumnus | Investment Banking | Wealth Management | Financial Analysis | Finance & Investment </h1>
           <h2 className="text-xl font-semibold text-black mb-6">
             {/* <a className="hover:underline text-2xl" href="https://skynetiks.com/" target="blank">
                       </a> */}
             
           </h2>
           <p className="text-gray-800 mb-4 text-justify">
-With a Master’s degree in Finance and Investment from Durham University Business School, one of the United Kingdom’s leading institutions, and a Bachelor of Commerce (Hons) from Narsee Monjee Institute of Management Studies (NMIMS), Naman Gupta is a finance professional with a strong emphasis on investment banking, wealth management, and financial analysis. With an experience in valuation models, Naman Gupta is proficient in utilizing tools such as Bloomberg Terminal, PowerBi, Tally ERP, and SQL.           </p>
+<strong>Naman Gupta </strong> is an enthusiastic finance professional aiming to specialise in <strong> investment banking, wealth management, and financial analysis. </strong> With a Merit degree MSc in Finance & Investments from Durham University Business School (UK) and a Bachelor of Commerce (Hons) from NMIMS - Narsee Monjee Institute of Management - Mumbai (India), Naman is eager to <strong> develop and implement sophisticated valuation models </strong> that drive informed strategic decisions. His proficiency with <strong> Bloomberg Terminal, PowerBI, and SQL </strong> enables him to extract critical insights and streamline financial processes, directly enhancing efficiency and profitability.     
+     </p>
           <p className="text-gray-800  text-justify">
           Committed to contributing to the evolving financial landscape through a combination of analytical rigor, technical proficiency, and a profound comprehension of market mechanisms.
           </p>

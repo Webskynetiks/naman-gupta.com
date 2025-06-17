@@ -92,26 +92,11 @@ export default function QueryForm_Content() {
         </div>
 
         <div className="flex justify-center gap-6 mt-8">
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full border text-black hover:bg-gray-100 transition"
-            aria-label="Facebook"
-          >
-            <FaFacebookF />
-          </a>
-          <a
-            href="https://x.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full border text-black hover:bg-gray-100 transition"
-            aria-label="Twitter/X"
-          >
-            <SiX />
-          </a>
-          <a
-            href="https://linkedin.com"
+          
+
+
+             <a
+            href="https://www.linkedin.com/in/naman-g-b99654165/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full border text-black hover:bg-gray-100 transition"
@@ -120,7 +105,17 @@ export default function QueryForm_Content() {
             <FaLinkedinIn />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://x.com/intent/post?url=namangupta.co.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 flex items-center justify-center rounded-full border text-black hover:bg-gray-100 transition"
+            aria-label="Twitter/X"
+          >
+            <SiX />
+          </a>
+       
+          <a
+            href="https://www.instagram.com/naman_38/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full border text-black hover:bg-gray-100 transition"
