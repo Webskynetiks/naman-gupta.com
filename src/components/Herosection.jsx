@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="bg-white text-black py-8 md:py-16 px-4 md:px-6 lg:px-20">
+    <section className="bg-white text-black py-8 md:py-8 px-4 md:px-6 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-12">
           {/* Image - Full width on mobile, fixed width on desktop */}
@@ -13,8 +13,7 @@ export default function HeroSection() {
               <img
                 src="/Images/profile-picture.JPG"
                 alt="Naman Gupta Profile Picture"
-                className="w-full h-auto shadow-lg rounded object-contain"
-              />
+ className="w-full h-[20rem] lg:h-[32rem] object-cover  shadow-lg rounded"              />
             </div>
           </div>
 

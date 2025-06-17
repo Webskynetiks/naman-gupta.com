@@ -33,12 +33,12 @@ export default function ContactPage() {
        <p class=" mt-2 mb-6">
                 I look forward to hearing from you
             </p>
-      <a
+      {/* <a
         href="#contact-form"
         className="inline-block bg-white text-indigo-400 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-gray-100 transition"
       >
         Contact Me
-      </a>
+      </a> */}
     </div>
   </div>
 </section>

@@ -7,13 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 const images = [
-  {
-    src: '/Images/canva.png',
-    alt: 'Media Photo 2',
-    caption: "Graduation Ceremony for B.Com (H) at NMIMS - Narsee Monjee Institute of Management - Mumbai India",
-    location: "Mumbai, India",
-    year: "2023"
-  },
+  
   {
     src: '/Images/Grad-2.webp',
     alt: 'Media Photo 1',
@@ -27,6 +21,13 @@ const images = [
     caption: "Graduation Ceremony for MSc - Investment & Finance at Durham University - Durham _ United Kingdom",
     location: "Durham, United Kingdom", 
     year: "2024"
+  },
+  {
+    src: '/Images/canva.png',
+    alt: 'Media Photo 2',
+    caption: "Graduation Ceremony for B.Com (H) at NMIMS - Narsee Monjee Institute of Management - Mumbai India",
+    location: "Mumbai, India",
+    year: "2023"
   },
 ];
 
