@@ -4,19 +4,19 @@ import { FaBullseye, FaArrowsAlt, FaWater } from "react-icons/fa";
 
 const services = [
   {
-    icon: <FaBullseye className="text-6xl text-black mb-4" />,
+    icon: <FaBullseye className="text-6xl text-[#3d87dc] mb-4" />,
     title: "Financial Advisory",
     description:
       " Providing strategic advice on stocks and market opportunities to grow wealth effectively.",
   },
   {
-    icon: <FaArrowsAlt className="text-6xl text-black mb-4" />,
+    icon: <FaArrowsAlt className="text-6xl text-orange-500 mb-4" />,
     title: "Investment Analysis",
     description:
       "Expertise in financial analysis, valuation and market trends to guide strategic investment decisions.",
   },
   {
-    icon: <FaWater className="text-6xl text-black mb-4" />,
+    icon: <FaWater className="text-6xl text-[#3d87dc] mb-4" />,
     title: "Performance Analysis",
     description:
       "Assessing financial performance and identifying growth opportunities to enhance strategic outcomes.",

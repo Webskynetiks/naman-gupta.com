@@ -23,9 +23,9 @@ export default function Navbar() {
               </Link>
 
               {/* Desktop Navigation */}
-              <nav className="hidden md:flex space-x-2 text-lg  font-normal text-black">
+              <nav className="hidden md:flex space-x-2 text-md  font-normal text-black">
                 <Link href="/" className="hover:text-blue-600 transition">
-                  Home <span className='text-gray-900'>|</span>
+                  Home <span className='text-gray-700'>|</span>
                 </Link>
                 {/* <Link href="/about-me" className="hover:text-blue-600 transition">
                   About Me
@@ -34,10 +34,10 @@ export default function Navbar() {
 
 
                 <Link href="/projects" className="hover:text-blue-600 transition">
-                  Projects <span className='text-gray-900'>|</span>
+                  Projects <span className='text-gray-700'>|</span>
                 </Link>
                 <Link href="/journey" className="hover:text-blue-600 transition">
-                  Journey <span className='text-gray-900'>|</span>
+                  Journey <span className='text-gray-700'>|</span>
                 </Link>
                 <Link href="/contact-me" className="hover:text-blue-600 transition">
                   Contact
@@ -66,7 +66,7 @@ export default function Navbar() {
             }`}
           >
             <div className="p-4 flex justify-between items-center border-b">
-              <span className="text-lg font-semibold text-gray-900">Naman Gupta</span>
+              <span className="text-lg font-semibold text-gray-700">Naman Gupta</span>
               <button onClick={toggleMenu} className="text-gray-800">
                 <X size={24} />
               </button>
