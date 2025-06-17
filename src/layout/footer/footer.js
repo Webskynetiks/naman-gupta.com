@@ -59,7 +59,7 @@ export default function Footer() {
           <h4 className="text-2xl font-bold text-white mb-4">Connect With Me</h4>
           <div className="flex gap-10 mb-6">
             <a
-              href="https://www.linkedin.com/shareArticle?url=namangupta.co.in/"
+              href="https://www.linkedin.com/in/naman-g-b99654165/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

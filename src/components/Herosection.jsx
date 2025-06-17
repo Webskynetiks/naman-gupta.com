@@ -21,7 +21,7 @@ export default function HeroSection() {
         {/* Text Content */}
         <div className="order-2 md:order-1">
           <h1 className="text-4xl md:text-2xl font-bold mb-4">About Me </h1>
-          <h1 className="text-4xl md:text-xl font-semibold ">Durham University & NMIMS Alumnus | Investment Banking | Wealth Management | Financial Analysis | Finance & Investment </h1>
+          <h1 className="text-lg md:text-xl font-semibold  ">Durham University & NMIMS Alumnus | Investment Banking | Wealth Management | Financial Analysis | Finance & Investment </h1>
           <h2 className="text-xl font-semibold text-black mb-6">
             {/* <a className="hover:underline text-2xl" href="https://skynetiks.com/" target="blank">
                       </a> */}
