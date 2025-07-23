@@ -11,7 +11,7 @@ export default function ContactPage() {
             <title>Contact Naman Gupta</title>
 
       </Head>
-   <section className="w-full bg-gradient-to-r from-purple-400 to-indigo-400 text-white flex items-center px-4 md:py-0">
+   <section className="w-full bg-gradient-to-r from-gray-200 to-gray-400 text-white flex items-center px-4 md:py-0">
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10  py-12">
     {/* Profile Image */}
     <div className="order-1 md:order-1 w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white shadow-2xl flex-shrink-0">
@@ -27,10 +27,10 @@ export default function ContactPage() {
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
       Get in Touch 
       </h1>
-      <p className="text-base sm:text-lg md:text-xl mb-4 max-w-md md:max-w-xl mx-auto md:mx-0">
+      <p className="text-base sm:text-lg md:text-xl mb-4 max-w-md md:max-w-xl mx-auto md:mx-0 text-gray-600">
        Let's connect and explore how my expertise can benefit your team or project.
       </p>
-       <p class=" mt-2 mb-6">
+       <p class=" sm:text-lg md:text-xl  mt-2 mb-6 text-gray-700">
                 I look forward to hearing from you
             </p>
       {/* <a

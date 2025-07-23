@@ -122,7 +122,7 @@ export default function QueryForm_Content() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition"
+              className="w-full bg-gray-300 text-black py-3 rounded-xl hover:bg-blue-700 transition"
             >
               {loading ? 'Sending...' : 'Send Message'}
             </button>
@@ -139,12 +139,12 @@ export default function QueryForm_Content() {
                 </a>
               </p>
               <p>
-                <a href="tel:+919910039395" className="text-blue-700 hover:underline">
+                <a href="tel:+919910039395" className="text-gray-600 hover:underline">
                   (+91)9910039395
                 </a>
               </p>
               <p>
-                <a href="tel:+447392768399" className="text-blue-500 hover:underline">
+                <a href="tel:+447392768399" className="text-gray-600 hover:underline">
                   (+44)7392768399
                 </a>
               </p>

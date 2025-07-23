@@ -5,21 +5,25 @@ import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 export default function TopContactBar() {
   return (
     <>
-      <div className="hidden md:flex bg-gray-200 text-white px-4 md:px-10 py-2 flex-col md:flex-row justify-between items-center text-sm ">
+      <div className="hidden md:flex bg-gray-200 text-white px-10 md:px-15 py-2 flex-col md:flex-row justify-between items-center text-sm  ">
         {/* Contact Info */}
-        <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start text-md">
+        <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start text-md ">
           <a
             href="mailto:contact@namangupta.co.in
 "
             className="flex items-center gap-1 hover:underline"
           >
             <MdEmail className="text-black" />
-            <span className="text-black" >contact@namangupta.co.in</span>
+            <span className="text-black text-md" >contact@namangupta.co.in</span>
           </a>
           <span className="hidden md:inline text-black">/</span>
           <a href="tel:+91 9910039395" className="flex items-center gap-1 hover:underline">
             <MdPhone className="text-black" />
-            <span className="text-black" >9910039395</span>
+            <span className="text-black" > +91 9910039395</span>
+          </a>
+          <a href="tel:+ +44 7392768399" className="flex items-center gap-1 hover:underline">
+            <MdPhone className="text-black" />
+            <span className="text-black" >  +44 7392768399</span>
           </a>
         </div>
 
